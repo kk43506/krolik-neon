@@ -1,0 +1,119 @@
+@media (orientation: landscape) {
+    header hgroup {
+        left: 5%;
+        top: 5%;
+    }
+    hgroup h1 {
+        font-size: 4rem;
+    }
+    header nav {
+        right: 7%;
+        top: 6%;
+        font-size: 4rem;
+    }
+    ul {
+        left: 25%;
+    }
+    header img {
+        bottom: -45%;
+    }
+    button {
+        bottom: 6%;
+    }
+}
+
+@media(max-width: 1960px) {
+    #neon {
+        left: 30%;
+    }
+    #neon li {
+        font-size: 70px;
+    }
+}
+
+@media(max-width: 1400px) {
+    #neon {
+        left: 20%;
+    }
+    #neon li {
+        font-size: 70px;
+    }
+}
+
+@media(max-width: 1024px) {
+    #neon {
+        left: 15%;
+    }
+    #neon li {
+        font-size: 60px;
+        letter-spacing: 1.5px;
+    }
+}
+
+@media(max-width: 768px) and (orientation: portrait) {
+    #neon {
+        left: 13%;
+    }
+    #neon li {
+        font-size: 45px;
+    }
+    button {
+        width: 60px;
+        height: 60px;
+        border: 3px solid white;
+        bottom: 3%;
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 768px) and (orientation: landscape) {
+    #neon {
+        left: 13%;
+    }
+    #neon li {
+        font-size: 45px;
+    }
+    button {
+        width: 40px;
+        height: 40px;
+        border: 3px solid white;
+        bottom: 3%;
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 640px) and (orientation: landscape) {
+    #neon {
+        left: 20%;
+    }
+    #neon li {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 620px) and (orientation: portrait) {
+    #neon {
+        left: 10%;
+    }
+    #neon li {
+        font-size: 23px;
+    }
+}
+
+@media(max-width: 385px) and (orientation: portrait) {
+    #neon {
+        left: 10%;
+    }
+    #neon li {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 321px) and (orientation: portrait) {
+    #neon {
+        left: 10%;
+    }
+    #neon li {
+        font-size: 15px;
+    }
+}

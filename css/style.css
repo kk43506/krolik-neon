@@ -1,0 +1,182 @@
+/*ustawianie wartości początkowych/reset domyślnych */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    /*jeżeli coś wychodzi poza obszar to jest niewidoczne*/
+}
+
+main {
+    height: 150vh;
+    background-color: white;
+}
+
+#partnersLogo {
+    background-color: white;
+    width: 25vw;
+    height: auto;
+}
+
+header img {
+    width: 100vw;
+    position: absolute;
+    bottom: 0%;
+}
+
+hgroup span {
+    color: #0c7ac8;
+    font-size: 8rem
+}
+
+header nav {
+    position: fixed;
+    right: 8%;
+    top: 5%;
+    font-size: 5rem;
+}
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+#navigation {
+    display: none;
+    position: absolute;
+    left: -10vw;
+    top: 10vh;
+    list-style-type: none;
+}
+
+#navigation li a {
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+}
+
+header hgroup {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: 'Lobster', coursive;
+    font-weight: 300;
+}
+
+header h3 {
+    font-size: 4rem;
+}
+
+button {
+    color: white;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    font-size: 4rem;
+    text-align: center;
+}
+
+#neon {
+    position: absolute;
+    margin-top: 50vh;
+    left: 5px;
+}
+
+#neon li {
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-shadow: 0 0 60px white, 0 0 30px silver;
+    transition: opacity 0.5s;
+}
+
+li:nth-child(n+15) {
+    font-family: 'Lobster', cursive;
+    text-shadow: 0 0 70px white, 0 0 30px silver;
+}
+
+#start {
+    animation: neon 3.5s infinite linear;
+}
+
+li.umbrella {
+    transform: rotate(25deg);
+}
+
+.off {
+    opacity: 0;
+}
+
+@keyframes neon {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    30% {
+        opacity: 0.5
+    }
+    32% {
+        opacity: 1;
+    }
+    77% {
+        opacity: 1;
+    }
+    78% {
+        opacity: 0;
+    }
+    88% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 1
+    }
+    93% {
+        opacity: 1
+    }
+    95% {
+        opacity: 0
+    }
+    97% {
+        opacity: 0
+    }
+    98% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0;
+    }
+}
